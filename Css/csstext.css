@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1{
+    text-align: center;
+    font-size: 70px;
+    color:darkorange;
+}
+header{
+    padding: 40px;
+    background-color:black;
+}
+nav{
+    background-color:darkslategray;
+    overflow: hidden;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color:whitesmoke;
+}
+
+main{
+    background-color:rgb(236, 163, 5);
+    text-align: center;
+}
+h2{
+    padding: 20px;
+
+}
+
+section:nth-child(even)
+{
+    background-color:aquamarine;
+}
+main a{
+    padding: 15px;
+    
+}
+
+img{
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    background-color: black;
+}
